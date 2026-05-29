@@ -1,0 +1,20 @@
+I built an AI detective to find out why people quit their jobs.
+By looking at satisfaction levels and work hours,
+the AI can forecast if someone is about to leave."
+
+The Technology
+Python: The language.
+
+Scikit-Learn: The pre-built brain library.
+
+NumPy: For the heavy math.
+
+Multi-Layer Perceptron (MLP): The specific type of neural network.
+
+The "Inner Workings"
+I didn't just use a library; I also coded the Backpropagation math from scratch.
+This includes the Sigmoid function to squish numbers and Derivatives to turn the 'Trust Knobs' (Weights) based on the error (Loss).
+
+The Trainer (python1.py): It cleans the data, builds the 2-layer neural network $(6, 5)$, and trains the brain.
+The Knowledge (hr_model.pkl): You have successfully "pickled" the brain. This is your most valuable file because it contains all the learning.
+The Predictor (use_the_brain.py): A fast, separate script that loads the model and gives forecasts without needing the original 15,000-row Excel file.
