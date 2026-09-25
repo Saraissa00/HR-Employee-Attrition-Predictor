@@ -52,3 +52,4 @@ Then open the local URL shown in the terminal (usually `http://127.0.0.1:7860`).
 - [Gradio](https://gradio.app) — interactive web UI
 - [Pandas](https://pandas.pydata.org) / [NumPy](https://numpy.org) — data processing
 - [Joblib](https://joblib.readthedocs.io) — model serialization
+
